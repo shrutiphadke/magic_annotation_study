@@ -1,0 +1,540 @@
+/* ============================================================
+   Study stylesheet — two-column full-viewport layout
+   Left: About + Product stacked
+   Right: All 10 questions
+   ============================================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+:root {
+  --bg: #f6f5f1;
+  --surface: #ffffff;
+  --ink: #1a1a1a;
+  --ink-soft: #4a4a4a;
+  --ink-faint: #8a8a8a;
+  --line: #e4e2dc;
+  --line-soft: #f0eee8;
+  --accent: #2d4a3e;
+  --accent-soft: #e8eee9;
+  --warn-bg: #fff4e0;
+  --warn-ink: #8a5a00;
+  --required: #c0392b;
+  --radius: 6px;
+  --shadow: 0 1px 3px rgba(0,0,0,0.04), 0 8px 24px rgba(0,0,0,0.04);
+  --font: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+
+  --topbar-h: 40px;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--font);
+  font-size: 13px;
+  line-height: 1.4;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ============================================================
+   Landing & Thank You
+   ============================================================ */
+
+.page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+}
+
+.card {
+  background: var(--surface);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 48px 56px;
+  max-width: 640px;
+  width: 100%;
+  border: 1px solid var(--line);
+}
+
+.card-header {
+  margin-bottom: 28px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid var(--line);
+}
+
+.eyebrow {
+  font-size: 11px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+  margin: 0 0 8px;
+  font-weight: 500;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 1.2;
+  margin: 0;
+  letter-spacing: -0.015em;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 14px;
+  margin: 0 0 10px;
+  letter-spacing: -0.005em;
+}
+
+.intro p { color: var(--ink-soft); margin: 0 0 14px; font-size: 14.5px; }
+
+.checklist {
+  margin: 24px 0;
+  padding: 18px 22px;
+  background: var(--accent-soft);
+  border-radius: var(--radius);
+}
+.checklist h2 { margin-top: 0; font-size: 15px; }
+.checklist ul { margin: 0; padding-left: 20px; color: var(--ink-soft); }
+.checklist li { margin: 6px 0; }
+
+.warning {
+  background: var(--warn-bg);
+  color: var(--warn-ink);
+  padding: 12px 16px;
+  border-radius: var(--radius);
+  font-size: 13px;
+  margin: 16px 0;
+}
+
+.consent-row {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+  margin: 20px 0;
+  padding: 14px;
+  background: #fafaf7;
+  border-radius: var(--radius);
+  cursor: pointer;
+  font-size: 14px;
+}
+.consent-row input { margin-top: 3px; flex-shrink: 0; }
+
+.btn-primary, .btn-secondary {
+  font-family: var(--font);
+  font-size: 13px;
+  font-weight: 500;
+  padding: 8px 18px;
+  border-radius: var(--radius);
+  cursor: pointer;
+  transition: background 0.15s, border-color 0.15s, transform 0.05s;
+}
+
+.btn-primary {
+  background: var(--accent);
+  color: white;
+  border: 1px solid var(--accent);
+}
+.btn-primary:hover:not(:disabled) { background: #1f3a30; }
+.btn-primary:active:not(:disabled) { transform: translateY(1px); }
+.btn-primary:disabled {
+  background: #c0c0c0;
+  border-color: #c0c0c0;
+  cursor: not-allowed;
+}
+
+.btn-secondary {
+  background: transparent;
+  color: var(--ink-soft);
+  border: 1px solid var(--line);
+}
+.btn-secondary:hover:not(:disabled) {
+  border-color: var(--ink-faint);
+  color: var(--ink);
+}
+.btn-secondary:disabled {
+  color: #c0c0c0;
+  cursor: not-allowed;
+}
+
+.manual-link-wrap { margin-top: 20px; text-align: center; }
+.manual-link-wrap .btn-primary { text-decoration: none; display: inline-block; }
+
+/* ============================================================
+   Survey page — full-viewport two-column layout
+   ============================================================ */
+
+.survey-body {
+  background: var(--bg);
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.topbar {
+  flex-shrink: 0;
+  height: var(--topbar-h);
+  background: var(--surface);
+  border-bottom: 1px solid var(--line);
+  padding: 0 18px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.brand {
+  font-weight: 600;
+  font-size: 13.5px;
+  letter-spacing: -0.005em;
+}
+
+.progress-wrap {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex: 1;
+  max-width: 320px;
+}
+
+.progress-text {
+  font-size: 11.5px;
+  color: var(--ink-soft);
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+}
+
+.progress-bar {
+  flex: 1;
+  height: 4px;
+  background: var(--line);
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.progress-fill {
+  height: 100%;
+  background: var(--accent);
+  width: 0;
+  transition: width 0.3s ease;
+}
+
+/* Main: two columns, fills remaining viewport */
+.survey-main {
+  flex: 1;
+  min-height: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  padding: 10px;
+  overflow: hidden;
+}
+
+/* --- Left column: stimuli stacked --- */
+.stimuli-col {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  gap: 10px;
+  min-height: 0;
+  overflow: hidden;
+}
+
+.stim-panel {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  box-shadow: var(--shadow);
+  min-height: 0;
+}
+
+.stim-label {
+  background: #fafaf7;
+  border-bottom: 1px solid var(--line);
+  padding: 5px 10px 5px 12px;
+  font-size: 10px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+  font-weight: 500;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.zoom-controls {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+
+.zoom-btn {
+  background: white;
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  width: 22px;
+  height: 22px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 13px;
+  color: var(--ink-soft);
+  font-weight: 600;
+  padding: 0;
+  line-height: 1;
+  font-family: var(--font);
+  transition: background 0.1s, border-color 0.1s;
+}
+.zoom-btn:hover {
+  background: var(--accent-soft);
+  border-color: var(--accent);
+  color: var(--accent);
+}
+.zoom-btn:active { transform: translateY(1px); }
+.zoom-reset { font-size: 12px; }
+
+.zoom-level {
+  font-size: 10.5px;
+  color: var(--ink-soft);
+  font-variant-numeric: tabular-nums;
+  letter-spacing: 0;
+  text-transform: none;
+  padding: 0 4px;
+  min-width: 34px;
+  text-align: center;
+  font-weight: 500;
+}
+
+.frame-wrap {
+  flex: 1;
+  position: relative;
+  overflow: hidden;
+  min-height: 0;
+}
+
+.stim-panel iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: none;
+  background: white;
+  transform-origin: 0 0;
+  /* width, height, and transform are set by JS based on zoom state */
+  width: 125%;
+  height: 125%;
+  transform: scale(0.8);
+}
+
+/* --- Right column: questions panel --- */
+.questions-col {
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.questions-panel {
+  flex: 1;
+  min-height: 0;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.questions-panel h2 {
+  margin: 0;
+  padding: 10px 16px;
+  border-bottom: 1px solid var(--line);
+  font-size: 13px;
+  font-weight: 600;
+  flex-shrink: 0;
+  background: #fafaf7;
+}
+
+#questions-form {
+  flex: 1;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+#questions-container {
+  flex: 1;
+  min-height: 0;
+  overflow-y: auto;
+  padding: 12px 16px 4px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px 18px;
+  align-content: start;
+}
+
+.question-block { padding-bottom: 4px; }
+
+/* Layout per question — make full use of the 2 columns in the right side */
+.question-block[data-qid="q1_magical_claims"] { grid-column: span 1; }
+.question-block[data-qid="q3_price"]          { grid-column: span 1; }
+.question-block[data-qid="q5_magic_degree"],
+.question-block[data-qid="q6_engagement"]      { grid-column: span 2; }
+.question-block[data-qid="q2_product_type"],
+.question-block[data-qid="q4_magic_terms"],
+.question-block[data-qid="q7_promised_outcome"],
+.question-block[data-qid="q8_demographic"],
+.question-block[data-qid="q9_evidence"],
+.question-block[data-qid="q10_notes"]          { grid-column: span 2; }
+
+.question-label {
+  display: block;
+  font-size: 12px;
+  font-weight: 600;
+  margin-bottom: 4px;
+  color: var(--ink);
+  line-height: 1.3;
+}
+
+.qnum { color: var(--ink-faint); font-weight: 500; margin-right: 3px; }
+.required { color: var(--required); font-weight: 400; }
+
+/* Text inputs */
+.text-input, .other-input {
+  width: 100%;
+  padding: 4px 8px;
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  font-family: var(--font);
+  font-size: 11.5px;
+  background: white;
+  color: var(--ink);
+  transition: border-color 0.15s;
+}
+.text-input:focus, .other-input:focus {
+  outline: none;
+  border-color: var(--accent);
+  box-shadow: 0 0 0 2px rgba(45, 74, 62, 0.1);
+}
+
+/* Radio buttons and checkboxes — clean list style */
+.radio-list,
+.checkbox-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+/* Multi-selects inside the (narrow) right column — 2 internal columns
+   for the ones with many options */
+.question-block[data-qid="q2_product_type"] .checkbox-list,
+.question-block[data-qid="q4_magic_terms"] .checkbox-list,
+.question-block[data-qid="q7_promised_outcome"] .checkbox-list,
+.question-block[data-qid="q8_demographic"] .checkbox-list,
+.question-block[data-qid="q9_evidence"] .checkbox-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0 14px;
+}
+
+.radio-row,
+.checkbox-row {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 1px 0;
+  cursor: pointer;
+  font-size: 11.5px;
+  color: var(--ink-soft);
+  line-height: 1.35;
+  background: transparent;
+  white-space: normal;
+}
+
+.radio-row:hover,
+.checkbox-row:hover { color: var(--ink); }
+
+.radio-row input[type="radio"],
+.checkbox-row input[type="checkbox"] {
+  flex-shrink: 0;
+  margin: 0;
+  width: 12px;
+  height: 12px;
+  accent-color: var(--accent);
+  cursor: pointer;
+}
+
+.radio-row:has(input:checked),
+.checkbox-row:has(input:checked) {
+  color: var(--ink);
+  font-weight: 500;
+}
+
+.other-row { flex-wrap: wrap; gap: 4px; }
+.other-row .other-input {
+  flex: 1;
+  min-width: 80px;
+  padding: 1px 6px;
+  font-size: 11.5px;
+  margin-left: 2px;
+}
+.other-row .other-input:disabled {
+  background: #f5f4f0;
+  color: var(--ink-faint);
+  border-color: var(--line-soft);
+}
+
+/* Footer / nav — pinned to bottom of questions panel */
+.form-footer {
+  flex-shrink: 0;
+  border-top: 1px solid var(--line);
+  padding: 10px 16px;
+  background: var(--surface);
+}
+
+.nav-buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Custom scrollbar for the questions container */
+#questions-container::-webkit-scrollbar { width: 8px; }
+#questions-container::-webkit-scrollbar-track { background: transparent; }
+#questions-container::-webkit-scrollbar-thumb {
+  background: var(--line);
+  border-radius: 8px;
+  border: 2px solid var(--surface);
+}
+#questions-container::-webkit-scrollbar-thumb:hover { background: var(--ink-faint); }
+
+/* --- Responsive: narrower screens collapse to stacked --- */
+@media (max-width: 1000px) {
+  .survey-body { height: auto; overflow: visible; }
+  .survey-main {
+    grid-template-columns: 1fr;
+    overflow: visible;
+  }
+  .stimuli-col { grid-template-rows: 360px 360px; }
+  .questions-panel { overflow: visible; }
+  #questions-form { overflow: visible; }
+  #questions-container { overflow: visible; }
+}
+
+@media (max-width: 600px) {
+  #questions-container { grid-template-columns: 1fr; }
+  .question-block[data-qid] { grid-column: span 1 !important; }
+  .question-block .checkbox-list { grid-template-columns: 1fr !important; }
+}

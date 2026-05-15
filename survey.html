@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Survey — Pair Evaluation</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="survey-body">
+  <header class="topbar">
+    <div class="brand">Website Evaluation Study</div>
+    <div class="progress-wrap">
+      <div class="progress-text">
+        Pair <span id="current-pair">1</span> of <span id="total-pairs">5</span>
+      </div>
+      <div class="progress-bar">
+        <div class="progress-fill" id="progress-fill"></div>
+      </div>
+    </div>
+  </header>
+
+  <main class="survey-main">
+    <!-- Left column: About on top, Product on bottom -->
+    <section class="stimuli-col">
+      <div class="stim-panel" data-frame="about">
+        <div class="stim-label">
+          <span>About Page</span>
+          <div class="zoom-controls">
+            <button type="button" class="zoom-btn" data-action="out" title="Zoom out">−</button>
+            <span class="zoom-level" data-level>80%</span>
+            <button type="button" class="zoom-btn" data-action="in" title="Zoom in">+</button>
+            <button type="button" class="zoom-btn zoom-reset" data-action="reset" title="Reset zoom">⟲</button>
+          </div>
+        </div>
+        <div class="frame-wrap">
+          <iframe id="about-frame" sandbox="allow-same-origin allow-scripts" title="About page"></iframe>
+        </div>
+      </div>
+
+      <div class="stim-panel" data-frame="product">
+        <div class="stim-label">
+          <span>Product</span>
+          <div class="zoom-controls">
+            <button type="button" class="zoom-btn" data-action="out" title="Zoom out">−</button>
+            <span class="zoom-level" data-level>80%</span>
+            <button type="button" class="zoom-btn" data-action="in" title="Zoom in">+</button>
+            <button type="button" class="zoom-btn zoom-reset" data-action="reset" title="Reset zoom">⟲</button>
+          </div>
+        </div>
+        <div class="frame-wrap">
+          <iframe id="product-frame" sandbox="allow-same-origin allow-scripts" title="Product page"></iframe>
+        </div>
+      </div>
+    </section>
+
+    <!-- Right column: all questions -->
+    <section class="questions-col">
+      <div class="questions-panel">
+        <h2>Questions about this pair</h2>
+        <form id="questions-form">
+          <div id="questions-container"></div>
+          <div class="form-footer">
+            <div class="nav-buttons">
+              <button type="button" class="btn-secondary" id="prev-btn" disabled>← Previous</button>
+              <button type="submit" class="btn-primary" id="submit-btn">Next pair →</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

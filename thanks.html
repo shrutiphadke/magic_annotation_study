@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Thank you</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="page">
+    <div class="card">
+      <header class="card-header">
+        <p class="eyebrow">Complete</p>
+        <h1>Thank you!</h1>
+      </header>
+      <section class="intro">
+        <p>Your responses have been recorded. You will be redirected back to Prolific in a few seconds to receive your completion code.</p>
+        <p id="redirect-status">Redirecting…</p>
+      </section>
+      <div class="manual-link-wrap">
+        <a id="manual-link" class="btn-primary" href="#">Click here if not redirected</a>
+      </div>
+    </div>
+  </main>
+
+  <script>
+    fetch("config.json")
+      .then(r => r.json())
+      .then(config => {
+        const url = config.completion_url || "https://app.prolific.com/";
+        document.getElementById("manual-link").href = url;
+        setTimeout(() => { window.location.href = url; }, 3000);
+      })
+      .catch(() => {
+        document.getElementById("redirect-status").textContent =
+          "Could not load redirect URL. Please return to Prolific manually.";
+      });
+  </script>
+</body>
+</html>

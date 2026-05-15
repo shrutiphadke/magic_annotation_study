@@ -1,0 +1,697 @@
+{
+  "pairs_per_participant": 5,
+  "completion_url": "https://app.prolific.com/submissions/complete?cc=REPLACE_WITH_YOUR_CODE",
+  "sheets_endpoint": "/submit",
+  "questions": [
+    {
+      "id": "q1_magical_claims",
+      "type": "single",
+      "text": "Is this product claiming to have magical qualities?",
+      "options": [
+        "Yes",
+        "No",
+        "I'm unsure"
+      ]
+    },
+    {
+      "id": "q2_product_type",
+      "type": "multi",
+      "text": "What is this product? (Check all that apply)",
+      "options": [
+        "Books",
+        "Magic Spells",
+        "Subliminal Videos",
+        "Crystals",
+        "Courses or Seminars",
+        "Digital Services",
+        "Social Content",
+        "Essential Oils or Candles",
+        "Kits, Boxes, or Ritual Prep",
+        "Tarot Cards or Tea Leaf Reading",
+        "Consultation or Coaching",
+        "Other"
+      ],
+      "allow_other": true
+    },
+    {
+      "id": "q3_price",
+      "type": "text",
+      "text": "Price or price range. If none is listed, write 'none'.",
+      "placeholder": "e.g. $19.99, $20-$50, none"
+    },
+    {
+      "id": "q4_magic_terms",
+      "type": "multi",
+      "text": "On the website, did you observe any of the terms below for the types of magic used? (Check all that apply)",
+      "options": [
+        "Subliminal \u2014 \"video with title wealth subliminal/sub\"",
+        "Manifestation \u2014 \"manifest your success\"",
+        "Law of Attraction / Abundance / Assumptions (LOA) \u2014 \"use LOA to bring success\"",
+        "Angel number \u2014 \"Your angel number is 111\"",
+        "Energy work \u2014 \"chakra healing or energy-healing practices\"",
+        "Psychic or Witch \u2014 \"e.g. tarot reading, spellcasting, psychic readings\"",
+        "Non-Western magical system \u2014 \"e.g. shamanic rituals, folk magic, indigenous spiritual practices\""
+      ],
+      "allow_other": true
+    },
+    {
+      "id": "q5_magic_degree",
+      "type": "single",
+      "text": "What is the highest degree of magic mentioned?",
+      "options": [
+        "No magic",
+        "Basic \u2014 self-help books or phrases such as \"manifest your wealth\"",
+        "Moderate \u2014 single items with magical attributes such as crystals",
+        "Advanced \u2014 guides or rituals requiring multiple steps or items"
+      ]
+    },
+    {
+      "id": "q6_engagement",
+      "type": "single",
+      "text": "What is the highest degree of intended/expected user engagement observed?",
+      "options": [
+        "Low \u2014 one-time purchase or expected engagement",
+        "Moderate \u2014 multiple purchases or engagement expected",
+        "High \u2014 frequent purchases or long-term engagement expected"
+      ]
+    },
+    {
+      "id": "q7_promised_outcome",
+      "type": "multi",
+      "text": "Was there a specific promised outcome for the magical products and services being sold? (Check all that apply)",
+      "options": [
+        "Wealth, Abundance, or Material Gain",
+        "Beauty or Physical Transformation",
+        "Fame or Success",
+        "Health (including self-help and mental health)",
+        "Love or Relationship",
+        "Spiritual Growth or Protection",
+        "Knowledge of the future"
+      ],
+      "allow_other": true
+    },
+    {
+      "id": "q8_demographic",
+      "type": "multi",
+      "text": "Was there a specific demographic that the products were being marketed to? (Check all that apply)",
+      "options": [
+        "Younger (below 30)",
+        "Older (above 60)",
+        "Women",
+        "Men",
+        "Transgender",
+        "Pre-existing believers",
+        "Business owners or entrepreneurs",
+        "No specific demographic"
+      ],
+      "allow_other": true
+    },
+    {
+      "id": "q9_evidence",
+      "type": "multi",
+      "text": "Does the website offer evidence for how the product functions? (Check all that apply)",
+      "options": [
+        "Scientifically backed \u2014 mentions research studies, science, labs",
+        "Spiritual authority \u2014 mentions a guru, prophet, or spiritual leader endorses it",
+        "Ancient knowledge \u2014 claims based on old traditions, sacred texts, or ancestral wisdom",
+        "Vibrations \u2014 mentions energy, vibrations, frequency, or aura",
+        "Testimonials and Reviews \u2014 shows user reviews, success stories, before/after experiences",
+        "Symbolism \u2014 uses sacred symbols, sigils, or mystical signs as proof",
+        "Personal research / education \u2014 author says they studied it themselves",
+        "AI backed \u2014 claims that AI or algorithms validate the results",
+        "No specific evidence listed"
+      ],
+      "allow_other": true
+    },
+    {
+      "id": "q10_notes",
+      "type": "text",
+      "text": "Do you have any other things to note?",
+      "placeholder": "Optional",
+      "optional": true
+    }
+  ],
+  "pairs": [
+    {
+      "pair_id": "d520969715af0c0c49482c2a67e8360d",
+      "product_id": "d520969715af0c0c49482c2a67e8360d",
+      "about_id": "a953d9d2668b53e3f83a33e90ac30701",
+      "product_html": "stimuli/products/7d002f1a9d1930c02589dbfbd8e0f98f/items/d520969715af0c0c49482c2a67e8360d.html",
+      "about_html": "stimuli/about/a953d9d2668b53e3f83a33e90ac30701/main.html",
+      "product_css": "stimuli/css/7d002f1a9d1930c02589dbfbd8e0f98f.css",
+      "about_css": "stimuli/css/a953d9d2668b53e3f83a33e90ac30701.css",
+      "source_product_url": "https://ericarock.com/collections/all",
+      "source_about_url": "https://ericarock.com/pages/about-me"
+    },
+    {
+      "pair_id": "62351a70d20c43f9a288a31878954217",
+      "product_id": "62351a70d20c43f9a288a31878954217",
+      "about_id": "a953d9d2668b53e3f83a33e90ac30701",
+      "product_html": "stimuli/products/7d002f1a9d1930c02589dbfbd8e0f98f/items/62351a70d20c43f9a288a31878954217.html",
+      "about_html": "stimuli/about/a953d9d2668b53e3f83a33e90ac30701/main.html",
+      "product_css": "stimuli/css/7d002f1a9d1930c02589dbfbd8e0f98f.css",
+      "about_css": "stimuli/css/a953d9d2668b53e3f83a33e90ac30701.css",
+      "source_product_url": "https://ericarock.com/collections/all",
+      "source_about_url": "https://ericarock.com/pages/about-me"
+    },
+    {
+      "pair_id": "28759cfcf94052f4cc38fb9dceb6f0eb",
+      "product_id": "28759cfcf94052f4cc38fb9dceb6f0eb",
+      "about_id": "a953d9d2668b53e3f83a33e90ac30701",
+      "product_html": "stimuli/products/7d002f1a9d1930c02589dbfbd8e0f98f/items/28759cfcf94052f4cc38fb9dceb6f0eb.html",
+      "about_html": "stimuli/about/a953d9d2668b53e3f83a33e90ac30701/main.html",
+      "product_css": "stimuli/css/7d002f1a9d1930c02589dbfbd8e0f98f.css",
+      "about_css": "stimuli/css/a953d9d2668b53e3f83a33e90ac30701.css",
+      "source_product_url": "https://ericarock.com/collections/all",
+      "source_about_url": "https://ericarock.com/pages/about-me"
+    },
+    {
+      "pair_id": "258c0d3f76d5f93c569a9ce15b4cfadf",
+      "product_id": "258c0d3f76d5f93c569a9ce15b4cfadf",
+      "about_id": "a953d9d2668b53e3f83a33e90ac30701",
+      "product_html": "stimuli/products/7d002f1a9d1930c02589dbfbd8e0f98f/items/258c0d3f76d5f93c569a9ce15b4cfadf.html",
+      "about_html": "stimuli/about/a953d9d2668b53e3f83a33e90ac30701/main.html",
+      "product_css": "stimuli/css/7d002f1a9d1930c02589dbfbd8e0f98f.css",
+      "about_css": "stimuli/css/a953d9d2668b53e3f83a33e90ac30701.css",
+      "source_product_url": "https://ericarock.com/collections/all",
+      "source_about_url": "https://ericarock.com/pages/about-me"
+    },
+    {
+      "pair_id": "88b93ceaeeb0a172f22fc6dab3042a6b",
+      "product_id": "88b93ceaeeb0a172f22fc6dab3042a6b",
+      "about_id": "a953d9d2668b53e3f83a33e90ac30701",
+      "product_html": "stimuli/products/7d002f1a9d1930c02589dbfbd8e0f98f/items/88b93ceaeeb0a172f22fc6dab3042a6b.html",
+      "about_html": "stimuli/about/a953d9d2668b53e3f83a33e90ac30701/main.html",
+      "product_css": "stimuli/css/7d002f1a9d1930c02589dbfbd8e0f98f.css",
+      "about_css": "stimuli/css/a953d9d2668b53e3f83a33e90ac30701.css",
+      "source_product_url": "https://ericarock.com/collections/all",
+      "source_about_url": "https://ericarock.com/pages/about-me"
+    },
+    {
+      "pair_id": "47e078fde8507b4b1b051a3b6ebcda25",
+      "product_id": "47e078fde8507b4b1b051a3b6ebcda25",
+      "about_id": "a953d9d2668b53e3f83a33e90ac30701",
+      "product_html": "stimuli/products/7d002f1a9d1930c02589dbfbd8e0f98f/items/47e078fde8507b4b1b051a3b6ebcda25.html",
+      "about_html": "stimuli/about/a953d9d2668b53e3f83a33e90ac30701/main.html",
+      "product_css": "stimuli/css/7d002f1a9d1930c02589dbfbd8e0f98f.css",
+      "about_css": "stimuli/css/a953d9d2668b53e3f83a33e90ac30701.css",
+      "source_product_url": "https://ericarock.com/collections/all",
+      "source_about_url": "https://ericarock.com/pages/about-me"
+    },
+    {
+      "pair_id": "1868bee069a1492e3502802c238ce829",
+      "product_id": "1868bee069a1492e3502802c238ce829",
+      "about_id": "a953d9d2668b53e3f83a33e90ac30701",
+      "product_html": "stimuli/products/7d002f1a9d1930c02589dbfbd8e0f98f/items/1868bee069a1492e3502802c238ce829.html",
+      "about_html": "stimuli/about/a953d9d2668b53e3f83a33e90ac30701/main.html",
+      "product_css": "stimuli/css/7d002f1a9d1930c02589dbfbd8e0f98f.css",
+      "about_css": "stimuli/css/a953d9d2668b53e3f83a33e90ac30701.css",
+      "source_product_url": "https://ericarock.com/collections/all",
+      "source_about_url": "https://ericarock.com/pages/about-me"
+    },
+    {
+      "pair_id": "71deeed7939098b805d28f4545d1d647",
+      "product_id": "71deeed7939098b805d28f4545d1d647",
+      "about_id": "a953d9d2668b53e3f83a33e90ac30701",
+      "product_html": "stimuli/products/7d002f1a9d1930c02589dbfbd8e0f98f/items/71deeed7939098b805d28f4545d1d647.html",
+      "about_html": "stimuli/about/a953d9d2668b53e3f83a33e90ac30701/main.html",
+      "product_css": "stimuli/css/7d002f1a9d1930c02589dbfbd8e0f98f.css",
+      "about_css": "stimuli/css/a953d9d2668b53e3f83a33e90ac30701.css",
+      "source_product_url": "https://ericarock.com/collections/all",
+      "source_about_url": "https://ericarock.com/pages/about-me"
+    },
+    {
+      "pair_id": "26d05a809cdeb7fd50f4b64399cdf4cb",
+      "product_id": "26d05a809cdeb7fd50f4b64399cdf4cb",
+      "about_id": "a953d9d2668b53e3f83a33e90ac30701",
+      "product_html": "stimuli/products/7d002f1a9d1930c02589dbfbd8e0f98f/items/26d05a809cdeb7fd50f4b64399cdf4cb.html",
+      "about_html": "stimuli/about/a953d9d2668b53e3f83a33e90ac30701/main.html",
+      "product_css": "stimuli/css/7d002f1a9d1930c02589dbfbd8e0f98f.css",
+      "about_css": "stimuli/css/a953d9d2668b53e3f83a33e90ac30701.css",
+      "source_product_url": "https://ericarock.com/collections/all",
+      "source_about_url": "https://ericarock.com/pages/about-me"
+    },
+    {
+      "pair_id": "a486bbcc853a20d036b8606719f47522",
+      "product_id": "a486bbcc853a20d036b8606719f47522",
+      "about_id": "a953d9d2668b53e3f83a33e90ac30701",
+      "product_html": "stimuli/products/7d002f1a9d1930c02589dbfbd8e0f98f/items/a486bbcc853a20d036b8606719f47522.html",
+      "about_html": "stimuli/about/a953d9d2668b53e3f83a33e90ac30701/main.html",
+      "product_css": "stimuli/css/7d002f1a9d1930c02589dbfbd8e0f98f.css",
+      "about_css": "stimuli/css/a953d9d2668b53e3f83a33e90ac30701.css",
+      "source_product_url": "https://ericarock.com/collections/all",
+      "source_about_url": "https://ericarock.com/pages/about-me"
+    },
+    {
+      "pair_id": "c267e7225c3324c9137cbde0a81bf684",
+      "product_id": "c267e7225c3324c9137cbde0a81bf684",
+      "about_id": "a953d9d2668b53e3f83a33e90ac30701",
+      "product_html": "stimuli/products/7d002f1a9d1930c02589dbfbd8e0f98f/items/c267e7225c3324c9137cbde0a81bf684.html",
+      "about_html": "stimuli/about/a953d9d2668b53e3f83a33e90ac30701/main.html",
+      "product_css": "stimuli/css/7d002f1a9d1930c02589dbfbd8e0f98f.css",
+      "about_css": "stimuli/css/a953d9d2668b53e3f83a33e90ac30701.css",
+      "source_product_url": "https://ericarock.com/collections/all",
+      "source_about_url": "https://ericarock.com/pages/about-me"
+    },
+    {
+      "pair_id": "b35446b4da820df40e83d73626ba226f",
+      "product_id": "b35446b4da820df40e83d73626ba226f",
+      "about_id": "a953d9d2668b53e3f83a33e90ac30701",
+      "product_html": "stimuli/products/7d002f1a9d1930c02589dbfbd8e0f98f/items/b35446b4da820df40e83d73626ba226f.html",
+      "about_html": "stimuli/about/a953d9d2668b53e3f83a33e90ac30701/main.html",
+      "product_css": "stimuli/css/7d002f1a9d1930c02589dbfbd8e0f98f.css",
+      "about_css": "stimuli/css/a953d9d2668b53e3f83a33e90ac30701.css",
+      "source_product_url": "https://ericarock.com/collections/all",
+      "source_about_url": "https://ericarock.com/pages/about-me"
+    },
+    {
+      "pair_id": "67035f2d88754a85531045a113cb865c",
+      "product_id": "67035f2d88754a85531045a113cb865c",
+      "about_id": "427274cfcf75ff2e0b40dbed7cea8671",
+      "product_html": "stimuli/products/825192bc25fb36bd532837a1d01d8136/items/67035f2d88754a85531045a113cb865c.html",
+      "about_html": "stimuli/about/427274cfcf75ff2e0b40dbed7cea8671/main.html",
+      "product_css": "stimuli/css/825192bc25fb36bd532837a1d01d8136.css",
+      "about_css": "stimuli/css/427274cfcf75ff2e0b40dbed7cea8671.css",
+      "source_product_url": "https://kelleyrosano.com/shop/",
+      "source_about_url": "https://kelleyrosano.com/about-me/"
+    },
+    {
+      "pair_id": "1328a793fd57f176c1bce269eed85d8f",
+      "product_id": "1328a793fd57f176c1bce269eed85d8f",
+      "about_id": "427274cfcf75ff2e0b40dbed7cea8671",
+      "product_html": "stimuli/products/825192bc25fb36bd532837a1d01d8136/items/1328a793fd57f176c1bce269eed85d8f.html",
+      "about_html": "stimuli/about/427274cfcf75ff2e0b40dbed7cea8671/main.html",
+      "product_css": "stimuli/css/825192bc25fb36bd532837a1d01d8136.css",
+      "about_css": "stimuli/css/427274cfcf75ff2e0b40dbed7cea8671.css",
+      "source_product_url": "https://kelleyrosano.com/shop/",
+      "source_about_url": "https://kelleyrosano.com/about-me/"
+    },
+    {
+      "pair_id": "573632a54a23d7a9dddf5248c92fe8d8",
+      "product_id": "573632a54a23d7a9dddf5248c92fe8d8",
+      "about_id": "427274cfcf75ff2e0b40dbed7cea8671",
+      "product_html": "stimuli/products/825192bc25fb36bd532837a1d01d8136/items/573632a54a23d7a9dddf5248c92fe8d8.html",
+      "about_html": "stimuli/about/427274cfcf75ff2e0b40dbed7cea8671/main.html",
+      "product_css": "stimuli/css/825192bc25fb36bd532837a1d01d8136.css",
+      "about_css": "stimuli/css/427274cfcf75ff2e0b40dbed7cea8671.css",
+      "source_product_url": "https://kelleyrosano.com/shop/",
+      "source_about_url": "https://kelleyrosano.com/about-me/"
+    },
+    {
+      "pair_id": "289536d0a8409f140a3f1c3c8aebeb04",
+      "product_id": "289536d0a8409f140a3f1c3c8aebeb04",
+      "about_id": "427274cfcf75ff2e0b40dbed7cea8671",
+      "product_html": "stimuli/products/825192bc25fb36bd532837a1d01d8136/items/289536d0a8409f140a3f1c3c8aebeb04.html",
+      "about_html": "stimuli/about/427274cfcf75ff2e0b40dbed7cea8671/main.html",
+      "product_css": "stimuli/css/825192bc25fb36bd532837a1d01d8136.css",
+      "about_css": "stimuli/css/427274cfcf75ff2e0b40dbed7cea8671.css",
+      "source_product_url": "https://kelleyrosano.com/shop/",
+      "source_about_url": "https://kelleyrosano.com/about-me/"
+    },
+    {
+      "pair_id": "889416821099e99f987ec84601987b6e",
+      "product_id": "889416821099e99f987ec84601987b6e",
+      "about_id": "427274cfcf75ff2e0b40dbed7cea8671",
+      "product_html": "stimuli/products/825192bc25fb36bd532837a1d01d8136/items/889416821099e99f987ec84601987b6e.html",
+      "about_html": "stimuli/about/427274cfcf75ff2e0b40dbed7cea8671/main.html",
+      "product_css": "stimuli/css/825192bc25fb36bd532837a1d01d8136.css",
+      "about_css": "stimuli/css/427274cfcf75ff2e0b40dbed7cea8671.css",
+      "source_product_url": "https://kelleyrosano.com/shop/",
+      "source_about_url": "https://kelleyrosano.com/about-me/"
+    },
+    {
+      "pair_id": "784f063397a6945d4a9bb80e34709ca7",
+      "product_id": "784f063397a6945d4a9bb80e34709ca7",
+      "about_id": "427274cfcf75ff2e0b40dbed7cea8671",
+      "product_html": "stimuli/products/825192bc25fb36bd532837a1d01d8136/items/784f063397a6945d4a9bb80e34709ca7.html",
+      "about_html": "stimuli/about/427274cfcf75ff2e0b40dbed7cea8671/main.html",
+      "product_css": "stimuli/css/825192bc25fb36bd532837a1d01d8136.css",
+      "about_css": "stimuli/css/427274cfcf75ff2e0b40dbed7cea8671.css",
+      "source_product_url": "https://kelleyrosano.com/shop/",
+      "source_about_url": "https://kelleyrosano.com/about-me/"
+    },
+    {
+      "pair_id": "8db4904b004a3fe9011116168765c27b",
+      "product_id": "8db4904b004a3fe9011116168765c27b",
+      "about_id": "427274cfcf75ff2e0b40dbed7cea8671",
+      "product_html": "stimuli/products/825192bc25fb36bd532837a1d01d8136/items/8db4904b004a3fe9011116168765c27b.html",
+      "about_html": "stimuli/about/427274cfcf75ff2e0b40dbed7cea8671/main.html",
+      "product_css": "stimuli/css/825192bc25fb36bd532837a1d01d8136.css",
+      "about_css": "stimuli/css/427274cfcf75ff2e0b40dbed7cea8671.css",
+      "source_product_url": "https://kelleyrosano.com/shop/",
+      "source_about_url": "https://kelleyrosano.com/about-me/"
+    },
+    {
+      "pair_id": "e1790fe3dbcd2b4cc4272fee892083bc",
+      "product_id": "e1790fe3dbcd2b4cc4272fee892083bc",
+      "about_id": "427274cfcf75ff2e0b40dbed7cea8671",
+      "product_html": "stimuli/products/825192bc25fb36bd532837a1d01d8136/items/e1790fe3dbcd2b4cc4272fee892083bc.html",
+      "about_html": "stimuli/about/427274cfcf75ff2e0b40dbed7cea8671/main.html",
+      "product_css": "stimuli/css/825192bc25fb36bd532837a1d01d8136.css",
+      "about_css": "stimuli/css/427274cfcf75ff2e0b40dbed7cea8671.css",
+      "source_product_url": "https://kelleyrosano.com/shop/",
+      "source_about_url": "https://kelleyrosano.com/about-me/"
+    },
+    {
+      "pair_id": "089df45ffb90e575aad659ae4056257e",
+      "product_id": "089df45ffb90e575aad659ae4056257e",
+      "about_id": "427274cfcf75ff2e0b40dbed7cea8671",
+      "product_html": "stimuli/products/825192bc25fb36bd532837a1d01d8136/items/089df45ffb90e575aad659ae4056257e.html",
+      "about_html": "stimuli/about/427274cfcf75ff2e0b40dbed7cea8671/main.html",
+      "product_css": "stimuli/css/825192bc25fb36bd532837a1d01d8136.css",
+      "about_css": "stimuli/css/427274cfcf75ff2e0b40dbed7cea8671.css",
+      "source_product_url": "https://kelleyrosano.com/shop/",
+      "source_about_url": "https://kelleyrosano.com/about-me/"
+    },
+    {
+      "pair_id": "adc227fe5506354ae290ac8dc3966c7b",
+      "product_id": "adc227fe5506354ae290ac8dc3966c7b",
+      "about_id": "427274cfcf75ff2e0b40dbed7cea8671",
+      "product_html": "stimuli/products/825192bc25fb36bd532837a1d01d8136/items/adc227fe5506354ae290ac8dc3966c7b.html",
+      "about_html": "stimuli/about/427274cfcf75ff2e0b40dbed7cea8671/main.html",
+      "product_css": "stimuli/css/825192bc25fb36bd532837a1d01d8136.css",
+      "about_css": "stimuli/css/427274cfcf75ff2e0b40dbed7cea8671.css",
+      "source_product_url": "https://kelleyrosano.com/shop/",
+      "source_about_url": "https://kelleyrosano.com/about-me/"
+    },
+    {
+      "pair_id": "a78ab003f80c8474c1b07901322faae4",
+      "product_id": "a78ab003f80c8474c1b07901322faae4",
+      "about_id": "427274cfcf75ff2e0b40dbed7cea8671",
+      "product_html": "stimuli/products/825192bc25fb36bd532837a1d01d8136/items/a78ab003f80c8474c1b07901322faae4.html",
+      "about_html": "stimuli/about/427274cfcf75ff2e0b40dbed7cea8671/main.html",
+      "product_css": "stimuli/css/825192bc25fb36bd532837a1d01d8136.css",
+      "about_css": "stimuli/css/427274cfcf75ff2e0b40dbed7cea8671.css",
+      "source_product_url": "https://kelleyrosano.com/shop/",
+      "source_about_url": "https://kelleyrosano.com/about-me/"
+    },
+    {
+      "pair_id": "807dee685ad2586d04d7bad924f3b095",
+      "product_id": "807dee685ad2586d04d7bad924f3b095",
+      "about_id": "427274cfcf75ff2e0b40dbed7cea8671",
+      "product_html": "stimuli/products/825192bc25fb36bd532837a1d01d8136/items/807dee685ad2586d04d7bad924f3b095.html",
+      "about_html": "stimuli/about/427274cfcf75ff2e0b40dbed7cea8671/main.html",
+      "product_css": "stimuli/css/825192bc25fb36bd532837a1d01d8136.css",
+      "about_css": "stimuli/css/427274cfcf75ff2e0b40dbed7cea8671.css",
+      "source_product_url": "https://kelleyrosano.com/shop/",
+      "source_about_url": "https://kelleyrosano.com/about-me/"
+    },
+    {
+      "pair_id": "b336f4fa8a9fcbd5fbfae888731c71f4",
+      "product_id": "b336f4fa8a9fcbd5fbfae888731c71f4",
+      "about_id": "427274cfcf75ff2e0b40dbed7cea8671",
+      "product_html": "stimuli/products/825192bc25fb36bd532837a1d01d8136/items/b336f4fa8a9fcbd5fbfae888731c71f4.html",
+      "about_html": "stimuli/about/427274cfcf75ff2e0b40dbed7cea8671/main.html",
+      "product_css": "stimuli/css/825192bc25fb36bd532837a1d01d8136.css",
+      "about_css": "stimuli/css/427274cfcf75ff2e0b40dbed7cea8671.css",
+      "source_product_url": "https://kelleyrosano.com/shop/",
+      "source_about_url": "https://kelleyrosano.com/about-me/"
+    },
+    {
+      "pair_id": "2db15c354a23475efa799ec6e19c9056",
+      "product_id": "2db15c354a23475efa799ec6e19c9056",
+      "about_id": "427274cfcf75ff2e0b40dbed7cea8671",
+      "product_html": "stimuli/products/825192bc25fb36bd532837a1d01d8136/items/2db15c354a23475efa799ec6e19c9056.html",
+      "about_html": "stimuli/about/427274cfcf75ff2e0b40dbed7cea8671/main.html",
+      "product_css": "stimuli/css/825192bc25fb36bd532837a1d01d8136.css",
+      "about_css": "stimuli/css/427274cfcf75ff2e0b40dbed7cea8671.css",
+      "source_product_url": "https://kelleyrosano.com/shop/",
+      "source_about_url": "https://kelleyrosano.com/about-me/"
+    },
+    {
+      "pair_id": "307a4af6e0c8495baafd15557c7ed642",
+      "product_id": "307a4af6e0c8495baafd15557c7ed642",
+      "about_id": "31febb938f32a2c5a72bd74b05a6cd99",
+      "product_html": "stimuli/products/00dcc647754f3e5770125741c43a1c1f/items/307a4af6e0c8495baafd15557c7ed642.html",
+      "about_html": "stimuli/about/31febb938f32a2c5a72bd74b05a6cd99/main.html",
+      "product_css": "stimuli/css/00dcc647754f3e5770125741c43a1c1f.css",
+      "about_css": "stimuli/css/31febb938f32a2c5a72bd74b05a6cd99.css",
+      "source_product_url": "https://www.piscespsychiclenormand.com/piscesmysticemporium",
+      "source_about_url": "https://www.piscespsychiclenormand.com/about"
+    },
+    {
+      "pair_id": "9b6fee2a18252a1ab701ee47ab83b173",
+      "product_id": "9b6fee2a18252a1ab701ee47ab83b173",
+      "about_id": "31febb938f32a2c5a72bd74b05a6cd99",
+      "product_html": "stimuli/products/00dcc647754f3e5770125741c43a1c1f/items/9b6fee2a18252a1ab701ee47ab83b173.html",
+      "about_html": "stimuli/about/31febb938f32a2c5a72bd74b05a6cd99/main.html",
+      "product_css": "stimuli/css/00dcc647754f3e5770125741c43a1c1f.css",
+      "about_css": "stimuli/css/31febb938f32a2c5a72bd74b05a6cd99.css",
+      "source_product_url": "https://www.piscespsychiclenormand.com/piscesmysticemporium",
+      "source_about_url": "https://www.piscespsychiclenormand.com/about"
+    },
+    {
+      "pair_id": "5daffbbbb360f03e474806170b2cabce",
+      "product_id": "5daffbbbb360f03e474806170b2cabce",
+      "about_id": "31febb938f32a2c5a72bd74b05a6cd99",
+      "product_html": "stimuli/products/00dcc647754f3e5770125741c43a1c1f/items/5daffbbbb360f03e474806170b2cabce.html",
+      "about_html": "stimuli/about/31febb938f32a2c5a72bd74b05a6cd99/main.html",
+      "product_css": "stimuli/css/00dcc647754f3e5770125741c43a1c1f.css",
+      "about_css": "stimuli/css/31febb938f32a2c5a72bd74b05a6cd99.css",
+      "source_product_url": "https://www.piscespsychiclenormand.com/piscesmysticemporium",
+      "source_about_url": "https://www.piscespsychiclenormand.com/about"
+    },
+    {
+      "pair_id": "d2710ca38af9c03149fb8fe03dd42d0d",
+      "product_id": "d2710ca38af9c03149fb8fe03dd42d0d",
+      "about_id": "31febb938f32a2c5a72bd74b05a6cd99",
+      "product_html": "stimuli/products/00dcc647754f3e5770125741c43a1c1f/items/d2710ca38af9c03149fb8fe03dd42d0d.html",
+      "about_html": "stimuli/about/31febb938f32a2c5a72bd74b05a6cd99/main.html",
+      "product_css": "stimuli/css/00dcc647754f3e5770125741c43a1c1f.css",
+      "about_css": "stimuli/css/31febb938f32a2c5a72bd74b05a6cd99.css",
+      "source_product_url": "https://www.piscespsychiclenormand.com/piscesmysticemporium",
+      "source_about_url": "https://www.piscespsychiclenormand.com/about"
+    },
+    {
+      "pair_id": "a78840530352226dd5d1890c54b3ee8e",
+      "product_id": "a78840530352226dd5d1890c54b3ee8e",
+      "about_id": "31febb938f32a2c5a72bd74b05a6cd99",
+      "product_html": "stimuli/products/00dcc647754f3e5770125741c43a1c1f/items/a78840530352226dd5d1890c54b3ee8e.html",
+      "about_html": "stimuli/about/31febb938f32a2c5a72bd74b05a6cd99/main.html",
+      "product_css": "stimuli/css/00dcc647754f3e5770125741c43a1c1f.css",
+      "about_css": "stimuli/css/31febb938f32a2c5a72bd74b05a6cd99.css",
+      "source_product_url": "https://www.piscespsychiclenormand.com/piscesmysticemporium",
+      "source_about_url": "https://www.piscespsychiclenormand.com/about"
+    },
+    {
+      "pair_id": "5aff7ec332804ec9a0b1db2836199b75",
+      "product_id": "5aff7ec332804ec9a0b1db2836199b75",
+      "about_id": "31febb938f32a2c5a72bd74b05a6cd99",
+      "product_html": "stimuli/products/00dcc647754f3e5770125741c43a1c1f/items/5aff7ec332804ec9a0b1db2836199b75.html",
+      "about_html": "stimuli/about/31febb938f32a2c5a72bd74b05a6cd99/main.html",
+      "product_css": "stimuli/css/00dcc647754f3e5770125741c43a1c1f.css",
+      "about_css": "stimuli/css/31febb938f32a2c5a72bd74b05a6cd99.css",
+      "source_product_url": "https://www.piscespsychiclenormand.com/piscesmysticemporium",
+      "source_about_url": "https://www.piscespsychiclenormand.com/about"
+    },
+    {
+      "pair_id": "56157369936fd6a93672f93c8e703d7d",
+      "product_id": "56157369936fd6a93672f93c8e703d7d",
+      "about_id": "31febb938f32a2c5a72bd74b05a6cd99",
+      "product_html": "stimuli/products/00dcc647754f3e5770125741c43a1c1f/items/56157369936fd6a93672f93c8e703d7d.html",
+      "about_html": "stimuli/about/31febb938f32a2c5a72bd74b05a6cd99/main.html",
+      "product_css": "stimuli/css/00dcc647754f3e5770125741c43a1c1f.css",
+      "about_css": "stimuli/css/31febb938f32a2c5a72bd74b05a6cd99.css",
+      "source_product_url": "https://www.piscespsychiclenormand.com/piscesmysticemporium",
+      "source_about_url": "https://www.piscespsychiclenormand.com/about"
+    },
+    {
+      "pair_id": "bd33723f2300f7792587e892747370af",
+      "product_id": "bd33723f2300f7792587e892747370af",
+      "about_id": "31febb938f32a2c5a72bd74b05a6cd99",
+      "product_html": "stimuli/products/00dcc647754f3e5770125741c43a1c1f/items/bd33723f2300f7792587e892747370af.html",
+      "about_html": "stimuli/about/31febb938f32a2c5a72bd74b05a6cd99/main.html",
+      "product_css": "stimuli/css/00dcc647754f3e5770125741c43a1c1f.css",
+      "about_css": "stimuli/css/31febb938f32a2c5a72bd74b05a6cd99.css",
+      "source_product_url": "https://www.piscespsychiclenormand.com/piscesmysticemporium",
+      "source_about_url": "https://www.piscespsychiclenormand.com/about"
+    },
+    {
+      "pair_id": "12f38a1b532ac218462c9d66f9251b46",
+      "product_id": "12f38a1b532ac218462c9d66f9251b46",
+      "about_id": "282f6201dd67a35fbf01cd806bed33f6",
+      "product_html": "stimuli/products/35110a3be85bfe8168e338664b166863/items/12f38a1b532ac218462c9d66f9251b46.html",
+      "about_html": "stimuli/about/282f6201dd67a35fbf01cd806bed33f6/main.html",
+      "product_css": "stimuli/css/35110a3be85bfe8168e338664b166863.css",
+      "about_css": "stimuli/css/282f6201dd67a35fbf01cd806bed33f6.css",
+      "source_product_url": "https://cafeastrology.com/shop/",
+      "source_about_url": "https://cafeastrology.com/"
+    },
+    {
+      "pair_id": "dc2d483dd6df93011827a5afe9988fdb",
+      "product_id": "dc2d483dd6df93011827a5afe9988fdb",
+      "about_id": "282f6201dd67a35fbf01cd806bed33f6",
+      "product_html": "stimuli/products/35110a3be85bfe8168e338664b166863/items/dc2d483dd6df93011827a5afe9988fdb.html",
+      "about_html": "stimuli/about/282f6201dd67a35fbf01cd806bed33f6/main.html",
+      "product_css": "stimuli/css/35110a3be85bfe8168e338664b166863.css",
+      "about_css": "stimuli/css/282f6201dd67a35fbf01cd806bed33f6.css",
+      "source_product_url": "https://cafeastrology.com/shop/",
+      "source_about_url": "https://cafeastrology.com/"
+    },
+    {
+      "pair_id": "e0702ef240b4912faccca9a58b0a90a0",
+      "product_id": "e0702ef240b4912faccca9a58b0a90a0",
+      "about_id": "282f6201dd67a35fbf01cd806bed33f6",
+      "product_html": "stimuli/products/35110a3be85bfe8168e338664b166863/items/e0702ef240b4912faccca9a58b0a90a0.html",
+      "about_html": "stimuli/about/282f6201dd67a35fbf01cd806bed33f6/main.html",
+      "product_css": "stimuli/css/35110a3be85bfe8168e338664b166863.css",
+      "about_css": "stimuli/css/282f6201dd67a35fbf01cd806bed33f6.css",
+      "source_product_url": "https://cafeastrology.com/shop/",
+      "source_about_url": "https://cafeastrology.com/"
+    },
+    {
+      "pair_id": "796fbe45a4a14a40f6aa58fdaec485c3",
+      "product_id": "796fbe45a4a14a40f6aa58fdaec485c3",
+      "about_id": "ec10482f7323a5ab3513866a8126f5f8",
+      "product_html": "stimuli/products/3a190b41a22efe65fdda6cb433f72ab4/items/796fbe45a4a14a40f6aa58fdaec485c3.html",
+      "about_html": "stimuli/about/ec10482f7323a5ab3513866a8126f5f8/main.html",
+      "product_css": "stimuli/css/3a190b41a22efe65fdda6cb433f72ab4.css",
+      "about_css": "stimuli/css/ec10482f7323a5ab3513866a8126f5f8.css",
+      "source_product_url": "https://www.twenty2.guru/book-online",
+      "source_about_url": "https://www.twenty2.guru/about-me"
+    },
+    {
+      "pair_id": "99efcdd3bf99612abc4f703dc0dc680c",
+      "product_id": "99efcdd3bf99612abc4f703dc0dc680c",
+      "about_id": "ec10482f7323a5ab3513866a8126f5f8",
+      "product_html": "stimuli/products/3a190b41a22efe65fdda6cb433f72ab4/items/99efcdd3bf99612abc4f703dc0dc680c.html",
+      "about_html": "stimuli/about/ec10482f7323a5ab3513866a8126f5f8/main.html",
+      "product_css": "stimuli/css/3a190b41a22efe65fdda6cb433f72ab4.css",
+      "about_css": "stimuli/css/ec10482f7323a5ab3513866a8126f5f8.css",
+      "source_product_url": "https://www.twenty2.guru/book-online",
+      "source_about_url": "https://www.twenty2.guru/about-me"
+    },
+    {
+      "pair_id": "bc196923b186acd88a790ad5dad33ea7",
+      "product_id": "bc196923b186acd88a790ad5dad33ea7",
+      "about_id": "ec10482f7323a5ab3513866a8126f5f8",
+      "product_html": "stimuli/products/3a190b41a22efe65fdda6cb433f72ab4/items/bc196923b186acd88a790ad5dad33ea7.html",
+      "about_html": "stimuli/about/ec10482f7323a5ab3513866a8126f5f8/main.html",
+      "product_css": "stimuli/css/3a190b41a22efe65fdda6cb433f72ab4.css",
+      "about_css": "stimuli/css/ec10482f7323a5ab3513866a8126f5f8.css",
+      "source_product_url": "https://www.twenty2.guru/book-online",
+      "source_about_url": "https://www.twenty2.guru/about-me"
+    },
+    {
+      "pair_id": "ed6add78f9bfe7437aee4009a8960436",
+      "product_id": "ed6add78f9bfe7437aee4009a8960436",
+      "about_id": "e7db5c527b6012017785339ba61fe2e4",
+      "product_html": "stimuli/products/785e9a8e02fb7ad971ce769d9262ee44/items/ed6add78f9bfe7437aee4009a8960436.html",
+      "about_html": "stimuli/about/e7db5c527b6012017785339ba61fe2e4/main.html",
+      "product_css": "stimuli/css/785e9a8e02fb7ad971ce769d9262ee44.css",
+      "about_css": "stimuli/css/e7db5c527b6012017785339ba61fe2e4.css",
+      "source_product_url": "https://www.melissaoatman.com/store",
+      "source_about_url": "https://www.melissaoatman.com/"
+    },
+    {
+      "pair_id": "3f6239f064f597e50dff6a1e14bda5ae",
+      "product_id": "3f6239f064f597e50dff6a1e14bda5ae",
+      "about_id": "e7db5c527b6012017785339ba61fe2e4",
+      "product_html": "stimuli/products/785e9a8e02fb7ad971ce769d9262ee44/items/3f6239f064f597e50dff6a1e14bda5ae.html",
+      "about_html": "stimuli/about/e7db5c527b6012017785339ba61fe2e4/main.html",
+      "product_css": "stimuli/css/785e9a8e02fb7ad971ce769d9262ee44.css",
+      "about_css": "stimuli/css/e7db5c527b6012017785339ba61fe2e4.css",
+      "source_product_url": "https://www.melissaoatman.com/store",
+      "source_about_url": "https://www.melissaoatman.com/"
+    },
+    {
+      "pair_id": "46e52090bc95e7a0beacc23f3930f1b8",
+      "product_id": "46e52090bc95e7a0beacc23f3930f1b8",
+      "about_id": "e7db5c527b6012017785339ba61fe2e4",
+      "product_html": "stimuli/products/785e9a8e02fb7ad971ce769d9262ee44/items/46e52090bc95e7a0beacc23f3930f1b8.html",
+      "about_html": "stimuli/about/e7db5c527b6012017785339ba61fe2e4/main.html",
+      "product_css": "stimuli/css/785e9a8e02fb7ad971ce769d9262ee44.css",
+      "about_css": "stimuli/css/e7db5c527b6012017785339ba61fe2e4.css",
+      "source_product_url": "https://www.melissaoatman.com/store",
+      "source_about_url": "https://www.melissaoatman.com/"
+    },
+    {
+      "pair_id": "f246bc52d7aeddf21f64ef472c29d8e0",
+      "product_id": "f246bc52d7aeddf21f64ef472c29d8e0",
+      "about_id": "e7db5c527b6012017785339ba61fe2e4",
+      "product_html": "stimuli/products/785e9a8e02fb7ad971ce769d9262ee44/items/f246bc52d7aeddf21f64ef472c29d8e0.html",
+      "about_html": "stimuli/about/e7db5c527b6012017785339ba61fe2e4/main.html",
+      "product_css": "stimuli/css/785e9a8e02fb7ad971ce769d9262ee44.css",
+      "about_css": "stimuli/css/e7db5c527b6012017785339ba61fe2e4.css",
+      "source_product_url": "https://www.melissaoatman.com/store",
+      "source_about_url": "https://www.melissaoatman.com/"
+    },
+    {
+      "pair_id": "417c16e07f8abea837ef4a14fb02268c",
+      "product_id": "417c16e07f8abea837ef4a14fb02268c",
+      "about_id": "e7db5c527b6012017785339ba61fe2e4",
+      "product_html": "stimuli/products/785e9a8e02fb7ad971ce769d9262ee44/items/417c16e07f8abea837ef4a14fb02268c.html",
+      "about_html": "stimuli/about/e7db5c527b6012017785339ba61fe2e4/main.html",
+      "product_css": "stimuli/css/785e9a8e02fb7ad971ce769d9262ee44.css",
+      "about_css": "stimuli/css/e7db5c527b6012017785339ba61fe2e4.css",
+      "source_product_url": "https://www.melissaoatman.com/store",
+      "source_about_url": "https://www.melissaoatman.com/"
+    },
+    {
+      "pair_id": "93c2756fd1fdf64cc5f4c79a05bc4a31",
+      "product_id": "93c2756fd1fdf64cc5f4c79a05bc4a31",
+      "about_id": "e7db5c527b6012017785339ba61fe2e4",
+      "product_html": "stimuli/products/785e9a8e02fb7ad971ce769d9262ee44/items/93c2756fd1fdf64cc5f4c79a05bc4a31.html",
+      "about_html": "stimuli/about/e7db5c527b6012017785339ba61fe2e4/main.html",
+      "product_css": "stimuli/css/785e9a8e02fb7ad971ce769d9262ee44.css",
+      "about_css": "stimuli/css/e7db5c527b6012017785339ba61fe2e4.css",
+      "source_product_url": "https://www.melissaoatman.com/store",
+      "source_about_url": "https://www.melissaoatman.com/"
+    },
+    {
+      "pair_id": "f8dbd29968ed78dcf4e76e3a2108f8e3",
+      "product_id": "f8dbd29968ed78dcf4e76e3a2108f8e3",
+      "about_id": "e7db5c527b6012017785339ba61fe2e4",
+      "product_html": "stimuli/products/785e9a8e02fb7ad971ce769d9262ee44/items/f8dbd29968ed78dcf4e76e3a2108f8e3.html",
+      "about_html": "stimuli/about/e7db5c527b6012017785339ba61fe2e4/main.html",
+      "product_css": "stimuli/css/785e9a8e02fb7ad971ce769d9262ee44.css",
+      "about_css": "stimuli/css/e7db5c527b6012017785339ba61fe2e4.css",
+      "source_product_url": "https://www.melissaoatman.com/store",
+      "source_about_url": "https://www.melissaoatman.com/"
+    },
+    {
+      "pair_id": "efff2d7ec59a741de6846e30b09ebdb6",
+      "product_id": "efff2d7ec59a741de6846e30b09ebdb6",
+      "about_id": "e7db5c527b6012017785339ba61fe2e4",
+      "product_html": "stimuli/products/785e9a8e02fb7ad971ce769d9262ee44/items/efff2d7ec59a741de6846e30b09ebdb6.html",
+      "about_html": "stimuli/about/e7db5c527b6012017785339ba61fe2e4/main.html",
+      "product_css": "stimuli/css/785e9a8e02fb7ad971ce769d9262ee44.css",
+      "about_css": "stimuli/css/e7db5c527b6012017785339ba61fe2e4.css",
+      "source_product_url": "https://www.melissaoatman.com/store",
+      "source_about_url": "https://www.melissaoatman.com/"
+    },
+    {
+      "pair_id": "2f1fc1c7ae3d132642d09b2e11ff6a82",
+      "product_id": "2f1fc1c7ae3d132642d09b2e11ff6a82",
+      "about_id": "e7db5c527b6012017785339ba61fe2e4",
+      "product_html": "stimuli/products/785e9a8e02fb7ad971ce769d9262ee44/items/2f1fc1c7ae3d132642d09b2e11ff6a82.html",
+      "about_html": "stimuli/about/e7db5c527b6012017785339ba61fe2e4/main.html",
+      "product_css": "stimuli/css/785e9a8e02fb7ad971ce769d9262ee44.css",
+      "about_css": "stimuli/css/e7db5c527b6012017785339ba61fe2e4.css",
+      "source_product_url": "https://www.melissaoatman.com/store",
+      "source_about_url": "https://www.melissaoatman.com/"
+    },
+    {
+      "pair_id": "c36e6703302109a0aa3cb4d6fa32d6d4",
+      "product_id": "c36e6703302109a0aa3cb4d6fa32d6d4",
+      "about_id": "e7db5c527b6012017785339ba61fe2e4",
+      "product_html": "stimuli/products/785e9a8e02fb7ad971ce769d9262ee44/items/c36e6703302109a0aa3cb4d6fa32d6d4.html",
+      "about_html": "stimuli/about/e7db5c527b6012017785339ba61fe2e4/main.html",
+      "product_css": "stimuli/css/785e9a8e02fb7ad971ce769d9262ee44.css",
+      "about_css": "stimuli/css/e7db5c527b6012017785339ba61fe2e4.css",
+      "source_product_url": "https://www.melissaoatman.com/store",
+      "source_about_url": "https://www.melissaoatman.com/"
+    },
+    {
+      "pair_id": "0f82199c74550f93b5cf82b2bc271f76",
+      "product_id": "0f82199c74550f93b5cf82b2bc271f76",
+      "about_id": "e7db5c527b6012017785339ba61fe2e4",
+      "product_html": "stimuli/products/785e9a8e02fb7ad971ce769d9262ee44/items/0f82199c74550f93b5cf82b2bc271f76.html",
+      "about_html": "stimuli/about/e7db5c527b6012017785339ba61fe2e4/main.html",
+      "product_css": "stimuli/css/785e9a8e02fb7ad971ce769d9262ee44.css",
+      "about_css": "stimuli/css/e7db5c527b6012017785339ba61fe2e4.css",
+      "source_product_url": "https://www.melissaoatman.com/store",
+      "source_about_url": "https://www.melissaoatman.com/"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Website Evaluation Study</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="page">
+    <div class="card">
+      <header class="card-header">
+        <p class="eyebrow">Research Study</p>
+        <h1>Website &amp; Product Evaluation</h1>
+      </header>
+
+      <section class="intro">
+        <p>Thank you for participating. In this study you will view <strong>5 pairs</strong> of web pages. Each pair shows one website's <em>About</em> page alongside one of its <em>products</em>.</p>
+        <p>For each pair, you will answer 10 short questions about the product and what the website claims. Most questions are dropdowns; a couple ask for short typed answers.</p>
+        <p>The study takes approximately <strong>15–20 minutes</strong>. Your responses are anonymous and identified only by your Prolific ID.</p>
+      </section>
+
+      <section class="checklist">
+        <h2>Before you begin</h2>
+        <ul>
+          <li>Use a desktop or laptop computer (mobile is not supported).</li>
+          <li>You can scroll inside each page to read the full content.</li>
+          <li>Please read both pages carefully before answering.</li>
+        </ul>
+      </section>
+
+      <div id="prolific-warning" class="warning" hidden>
+        ⚠️ Prolific ID not detected in URL. If you are testing the study this is fine — otherwise please return to Prolific and click the study link again.
+      </div>
+
+      <form id="consent-form">
+        <label class="consent-row">
+          <input type="checkbox" id="consent-check" required />
+          <span>I consent to participate in this study and understand my responses will be used for research.</span>
+        </label>
+        <button type="submit" class="btn-primary">Begin study →</button>
+      </form>
+    </div>
+  </main>
+
+  <script>
+    // Capture Prolific URL params
+    const params = new URLSearchParams(window.location.search);
+    const pid = params.get("PROLIFIC_PID");
+    const sid = params.get("STUDY_ID");
+    const ssn = params.get("SESSION_ID");
+
+    if (!pid) {
+      document.getElementById("prolific-warning").hidden = false;
+    }
+
+    // Store for later
+    sessionStorage.setItem("PROLIFIC_PID", pid || "TEST_USER");
+    sessionStorage.setItem("STUDY_ID", sid || "TEST_STUDY");
+    sessionStorage.setItem("SESSION_ID", ssn || "TEST_SESSION");
+    sessionStorage.setItem("START_TIME", Date.now().toString());
+
+    document.getElementById("consent-form").addEventListener("submit", (e) => {
+      e.preventDefault();
+      window.location.href = "survey.html";
+    });
+  </script>
+</body>
+</html>
